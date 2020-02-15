@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animated Tile Example</string>
+    <string name="permission_rationale_location">
+        Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.
+    </string>
+    <string name="open_map_tile">Open animated tiles</string>
+</resources>

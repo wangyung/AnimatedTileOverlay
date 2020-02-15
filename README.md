@@ -1,2 +1,2 @@
-# AnimatedTileOverlay
-The demo of how to implement animated tile overlay on Google Maps
+# Description
+The demo of how to create animated tile overlays on Google Maps.
