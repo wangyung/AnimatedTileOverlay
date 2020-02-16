@@ -51,11 +51,11 @@ class TileAnimationController(
             return
         }
 
-        swapTile()
+        swapTiles()
         lock = true
     }
 
-    private fun swapTile() {
+    private fun swapTiles() {
         if (overlay1 != null) {
             overlay2 = map.addTileOverlay(
                 TileOverlayOptions().tileProvider(timedTileProvider).fadeIn(false).zIndex(zIndex)
