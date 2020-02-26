@@ -16,8 +16,6 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.TileOverlay
-import com.google.android.gms.maps.model.TileOverlayOptions
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
 
@@ -89,7 +87,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private fun animateTile() {
         tileAnimationController.currentTimeStamp += 1
-        handler.postDelayed(animatedTileRunnable, 1000)
+        handler.postDelayed(animatedTileRunnable, 333)
     }
 
     private fun Location.toLatLng(): LatLng = LatLng(latitude, longitude)

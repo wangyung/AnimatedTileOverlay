@@ -9,6 +9,7 @@ import androidx.core.graphics.applyCanvas
 import androidx.core.graphics.createBitmap
 import com.google.android.gms.maps.model.Tile
 import java.io.ByteArrayOutputStream
+import java.util.concurrent.TimeUnit
 
 class AnimatedTileProvider(context: Context) : TimedTileProvider {
 
